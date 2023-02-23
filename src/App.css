@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #131213;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-1 {
+  height: 100vh;
+  width: 35%;
+  background-color: #1a171d;
+  padding: 55px;
+}
+
+.head-1 {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 500;
+  color: #f3aa4e;
+  text-align: center;
+}
+
+.label {
+  color: #f1f5f9;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+}
+
+.input {
+  height: 40px;
+  width: 400px;
+  padding: 15px;
+  font-family: 'Roboto';
+  color: #64748b;
+  outline: none;
+  background-color: #f1f5f9;
+  margin-top: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.input-2 {
+  height: 40px;
+  width: 400px;
+  padding-left: 15px;
+  font-family: 'Roboto';
+  color: black;
+  outline: none;
+  background-color: #f1f5f9;
+  margin-top: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.butt-cont {
+  text-align: center;
+}
+
+.butt {
+  height: 40px;
+  width: 110px;
+  font-family: 'Roboto';
+  color: white;
+  border: none;
+  background-color: #f3aa4e;
+  font-weight: 600;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.card-2 {
+  padding: 30px;
+  width: 100%;
+}
+
+.head-2 {
+  color: #f1f5f9;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.list-cont {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: -35px;
+  width: 100%;
+}
+
+.head-3 {
+  color: #f1f5f9;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.l-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+}
+
+.l-cont-list {
+  list-style-type: none;
+}
+
+.l-list-item {
+  height: 100px;
+  width: 100%;
+  background-color: #1a171d;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.task {
+  color: #f1f5f9;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.tag {
+  height: 35px;
+  border-radius: 20px;
+  min-width: 100px;
+  color: #475569;
+  font-weight: 600;
+  font-family: 'Roboto';
+  background-color: #f3aa4e;
+  border: none;
+  margin-right: 15px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-container {
+    flex-direction: column;
+  }
+  .card-1 {
+    height: 50vh;
+    width: 100%;
+  }
+  .card-2 {
+    width: 100%;
+  }
+  .input {
+    width: 90%;
+  }
+  .input-2 {
+    width: 90%;
+  }
+  .list-cont {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .head-2 {
+    margin-top: 60px;
+  }
+  .l-list-item {
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-left: -20px;
+  }
+  .task {
+    font-size: 17px;
+  }
+  .tag {
+    font-size: 13px;
+  }
+}
